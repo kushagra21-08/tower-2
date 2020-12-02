@@ -9,7 +9,7 @@ class Top2 {
     this.height = height;
     this.Visiblity = 255;
     World.add(world, this.body);
-    this.img = loadImage("img/blue.png");
+    //this.img = loadImage("img/blue.png");
   }
   display(){
     var pos =this.body.position;
@@ -20,7 +20,7 @@ class Top2 {
        push();
        this.Visiblity = this.Visiblity - 5;
        tint(255,this.Visiblity);
-       image(this.img, this.body.position.x, this.body.position.y, 50, 50);
+       //image(this.img, this.body.position.x, this.body.position.y, 50, 50);
        pop();
      }
      else{
